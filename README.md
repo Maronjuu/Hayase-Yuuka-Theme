@@ -11,6 +11,12 @@ inspired by Yuuka from Blue Archive.
 - Support for Java, C++, Python, JavaScript,
   TypeScript, HTML and CSS
 
+## Install and use
+
+Download the .vsix estension package file available in the repository.
+
+Open VSCode, then open the panel with Ctrl+Shift+P. Search for "Extensions: Install from VSIX...". Run that command and select the VSIX file. Once installed, you can select the color theme from the theme settings.
+
 ## Doki Theme: wallpaper and status bar sticker
 
 The repository includes two images you can use as a wallpaper and sticker with the Doki extension. 
@@ -19,5 +25,5 @@ To be able to set the sticker and the wallpaper along with this theme, you need 
 
 Recommended CSS settings for the sticker, when vscode is in full-screen:
 
-z-index:100; background-position: 100% 94.5%; background-size: 380px
+`z-index:100; background-position: 100% 94.5%; background-size: 380px`
 
