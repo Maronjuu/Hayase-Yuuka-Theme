@@ -1,0 +1,23 @@
+{
+  "name": "hayase-yuuka-by-maronjuu",
+  "displayName": "Hayase Yuuka by Maronjuu",
+  "description": "A dark and expressive color theme inspired by Hayase Yuuka from Blue Archive.",
+  "version": "1.0.0",
+  "publisher": "Maronjuu",
+  "author": "Maronjuu",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hayase Yuuka by Maronjuu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hayase-yuuka-by-maronjuu.json"
+      }
+    ]
+  }
+}

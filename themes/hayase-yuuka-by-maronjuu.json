@@ -1,0 +1,961 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Yuuka Theme",
+    "type": "dark",
+    "semanticHighlighting": true,
+
+    
+
+    "colors": {
+
+        // ==========================================
+        // 1. COLORI GENERALI
+        // ==========================================
+
+        "foreground": "#FFFFFF",
+        "descriptionForeground": "#AAA6BD",
+        "disabledForeground": "#77728F",
+        "focusBorder": "#4b387f",
+        "contrastBorder": "#29263A",
+
+        // ==========================================
+        // 2. EDITOR - SFONDO E TESTO
+        // ==========================================
+
+        "editor.background": "#1D1B2A",
+        "editor.foreground": "#B5C9F5",
+        "editorGutter.background": "#1D1B2A",
+        "editorLineNumber.foreground": "#3c3853",
+        "editorLineNumber.activeForeground": "#FFFFFF",
+        "editorCursor.foreground": "#FFFFFF",
+        "editorWhitespace.foreground": "#343044",
+        "editorIndentGuide.background1": "#343044",
+        "editorIndentGuide.activeBackground1": "#66558A",
+        "editorRuler.foreground": "#343044",
+
+        // ==========================================
+        // 3. EDITOR - SELEZIONI
+        // ==========================================
+
+        "editor.lineHighlightBackground": "#00000000",
+        "editor.inactiveLineHighlightBackground": "#4b387f20",
+        "editor.lineHighlightBorder": "#00000000",
+        "editor.selectionBackground": "#4b387f55",
+        "editor.inactiveSelectionBackground": "#4b387f35",
+        "editor.selectionForeground": "#FFFFFF",
+        "editor.selectionHighlightBackground": "#4b387f35",
+        "editor.selectionHighlightBorder": "#4b387f55",
+        "editor.wordHighlightBackground": "#4b387f30",
+        "editor.wordHighlightStrongBackground": "#4b387f45",
+        "editor.wordHighlightTextBackground": "#4b387f25",
+        "editor.findMatchBackground": "#4b387f",
+        "editor.findMatchHighlightBackground": "#4b387f55",
+        "editor.findRangeHighlightBackground": "#4b387f30",
+        "editor.rangeHighlightBackground": "#4b387f30",
+        "editor.hoverHighlightBackground": "#29263A",
+
+        // ==========================================
+        // 4. EDITOR - DIAGNOSTICA
+        // ==========================================
+
+        "editorError.foreground": "#E58CBA",
+        "editorWarning.foreground": "#D9B77C",
+        "editorInfo.foreground": "#73B8E8",
+        "editorHint.foreground": "#947FC5",
+
+        // ==========================================
+        // 5. EDITOR - WIDGET E SUGGERIMENTI
+        // ==========================================
+
+        "editorWidget.background": "#1A1928",
+        "editorWidget.foreground": "#FFFFFF",
+        "editorWidget.border": "#29263A",
+
+        "editorSuggestWidget.background": "#1A1928",
+        "editorSuggestWidget.foreground": "#FFFFFF",
+        "editorSuggestWidget.border": "#29263A",
+        "editorSuggestWidget.selectedBackground": "#29263A",
+        "editorSuggestWidget.selectedForeground": "#FFFFFF",
+        "editorSuggestWidget.highlightForeground": "#8CCBEF",
+
+        "editorHoverWidget.background": "#1A1928",
+        "editorHoverWidget.foreground": "#FFFFFF",
+        "editorHoverWidget.border": "#29263A",
+        "editorHoverWidget.highlightForeground": "#8CCBEF",
+
+        "editorCodeLens.foreground": "#66617D",
+        "editorLink.activeForeground": "#8CCBEF",
+
+        // ==========================================
+        // 6. EDITOR - PARENTESI
+        // ==========================================
+
+        "editorBracketMatch.background": "#4b387f55",
+        "editorBracketMatch.border": "#4b387f",
+
+        "editorBracketHighlight.foreground1": "#91BFFF",
+        "editorBracketHighlight.foreground2": "#55D6F5",
+        "editorBracketHighlight.foreground3": "#B69CFF",
+        "editorBracketHighlight.foreground4": "#8EDCFF",
+        "editorBracketHighlight.foreground5": "#A6E3B5",
+        "editorBracketHighlight.foreground6": "#D5A6FF",
+
+        "editorOverviewRuler.border": "#1A1928",
+        "editorOverviewRuler.errorForeground": "#E58CBA",
+        "editorOverviewRuler.warningForeground": "#D9B77C",
+        "editorOverviewRuler.infoForeground": "#73B8E8",
+
+        // ==========================================
+        // 7. SCROLLBAR E SCROLL DECORATION
+        // ==========================================
+
+        "scrollbar.shadow": "#00000000",
+        "scrollbarSlider.background": "#4b387f55",
+        "scrollbarSlider.hoverBackground": "#66508088",
+        "scrollbarSlider.activeBackground": "#947FC588",
+
+        // ==========================================
+        // 8. STICKY SCROLL
+        // ==========================================
+
+        "editorStickyScroll.background": "#1D1B2A",
+        "editorStickyScroll.border": "#00000000",
+        "editorStickyScroll.shadow": "#00000000",
+        "editorStickyScrollGutter.background": "#1D1B2A",
+        "editorStickyScrollHover.background": "#4b387f55",
+
+        // ==========================================
+        // 9. SIDEBAR
+        // ==========================================
+
+        "sideBar.background": "#1A1928",
+        "sideBar.foreground": "#AAA6BD",
+        "sideBar.border": "#29263A",
+        "sideBarSectionHeader.background": "#1A1928",
+        "sideBarSectionHeader.foreground": "#FFFFFF",
+        "sideBarTitle.foreground": "#FFFFFF",
+
+        // ==========================================
+        // 10. ACTIVITY BAR
+        // ==========================================
+
+        "activityBar.background": "#1A1928",
+        "activityBar.foreground": "#947FC5",
+        "activityBar.inactiveForeground": "#77728F",
+        "activityBar.activeBorder": "#4b387f",
+        "activityBar.border": "#29263A",
+        "activityBarBadge.background": "#4b387f",
+        "activityBarBadge.foreground": "#FFFFFF",
+
+        // ==========================================
+        // 11. STATUS BAR
+        // ==========================================
+
+        "statusBar.background": "#4b387f",
+        "statusBar.foreground": "#FFFFFF",
+        "statusBar.border": "#29263A",
+        "statusBar.focusBorder": "#4b387f",
+        "statusBar.debuggingBackground": "#3A2F50",
+        "statusBar.debuggingForeground": "#FFFFFF",
+        "statusBar.noFolderBackground": "#30283F",
+
+        "statusBarItem.hoverBackground": "#59436F",
+        "statusBarItem.hoverForeground": "#FFFFFF",
+        "statusBarItem.activeBackground": "#392B62",
+        "statusBarItem.focusBorder": "#4b387f",
+        "statusBarItem.prominentBackground": "#4b387f",
+        "statusBarItem.prominentForeground": "#FFFFFF",
+        "statusBarItem.prominentHoverBackground": "#59436F",
+        "statusBarItem.prominentHoverForeground": "#FFFFFF",
+        "statusBarItem.remoteBackground": "#30283F",
+        "statusBarItem.remoteForeground": "#FFFFFF",
+
+        // ==========================================
+        // 12. EDITOR GROUP HEADER
+        // ==========================================
+
+        "editorGroupHeader.tabsBackground": "#1A1928",
+        "editorGroupHeader.tabsBorder": "#00000000",
+        "editorGroupHeader.border": "#00000000",
+        "editorGroupHeader.noTabsBackground": "#1A1928",
+        "editorGroup.border": "#00000000",
+
+        // ==========================================
+        // 13. TABS
+        // ==========================================
+
+        "tab.activeBackground": "#1D1B2A",
+        "tab.activeForeground": "#FFFFFF",
+        "tab.inactiveBackground": "#1A1928",
+        "tab.inactiveForeground": "#AAA6BD",
+        "tab.activeBorder": "#947FC5",
+        "tab.unfocusedActiveBorder": "#66558A",
+        "tab.border": "#00000000",
+        "tab.hoverBackground": "#29263A",
+        "tab.hoverBorder": "#00000000",
+        "tab.unfocusedHoverBorder": "#00000000",
+        "tab.dragAndDropBorder": "#4b387f",
+        "tab.lastPinnedBorder": "#29263A",
+        "tab.unfocusedActiveForeground": "#FFFFFF",
+        "tab.unfocusedInactiveForeground": "#77728F",
+
+        // ==========================================
+        // 14. TITLE BAR
+        // ==========================================
+
+        "titleBar.activeBackground": "#1A1928",
+        "titleBar.activeForeground": "#77728F",
+        "titleBar.inactiveBackground": "#1A1928",
+        "titleBar.inactiveForeground": "#AAA6BD",
+        "titleBar.border": "#29263A",
+
+        // ==========================================
+        // 15. MENU BAR
+        // ==========================================
+
+        "menubar.selectionForeground": "#FFFFFF",
+        "menubar.selectionBackground": "#29263A",
+        "menubar.selectionBorder": "#00000000",
+
+        // ==========================================
+        // 16. MENU A TENDINA
+        // ==========================================
+
+        "menu.background": "#1A1928",
+        "menu.foreground": "#FFFFFF",
+        "menu.selectionBackground": "#29263A",
+        "menu.selectionForeground": "#FFFFFF",
+        "menu.selectionBorder": "#00000000",
+        "menu.separatorBackground": "#39354D",
+        "menu.border": "#29263A",
+
+        // ==========================================
+        // 17. TOOLBAR
+        // ==========================================
+
+        "toolbar.hoverBackground": "#29263A",
+        "toolbar.activeBackground": "#343044",
+
+        // ==========================================
+        // 18. EDITOR TITLE E AZIONI
+        // ==========================================
+
+        "editorTitle.foreground": "#AAA6BD",
+        "editorTitle.activeForeground": "#FFFFFF",
+        "editorTitle.inactiveForeground": "#AAA6BD",
+        "editorTitle.border": "#29263A",
+        "editorActions.foreground": "#FFFFFF",
+        "editorActions.hoverForeground": "#FFFFFF",
+
+        // ==========================================
+        // 19. COMMAND CENTER
+        // ==========================================
+
+        "commandCenter.foreground": "#FFFFFF",
+        "commandCenter.activeForeground": "#FFFFFF",
+        "commandCenter.inactiveForeground": "#AAA6BD",
+        "commandCenter.background": "#1A1928",
+        "commandCenter.activeBackground": "#29263A",
+        "commandCenter.border": "#29263A",
+        "commandCenter.activeBorder": "#4b387f",
+        "commandCenter.inactiveBorder": "#29263A",
+
+        // ==========================================
+        // 20. PANEL E TERMINALE
+        // ==========================================
+
+        "panel.background": "#1A1928",
+        "panel.foreground": "#FFFFFF",
+        "panel.border": "#29263A",
+        "panelTitle.activeForeground": "#FFFFFF",
+        "panelTitle.inactiveForeground": "#AAA6BD",
+        "panelTitle.activeBorder": "#947FC5",
+
+        "terminal.background": "#1D1B2A",
+        "terminal.foreground": "#FFFFFF",
+        "terminalCursor.foreground": "#FFFFFF",
+        "terminal.selectionBackground": "#4b387f55",
+
+        // ==========================================
+        // 21. BREADCRUMBS
+        // ==========================================
+
+        "breadcrumb.background": "#1D1B2A",
+        "breadcrumb.foreground": "#AAA6BD",
+        "breadcrumb.focusForeground": "#FFFFFF",
+        "breadcrumb.activeSelectionForeground": "#FFFFFF",
+        "breadcrumbPicker.background": "#1A1928",
+        "breadcrumbPicker.border": "#29263A",
+
+        // ==========================================
+        // 22. INPUT E DROPDOWN
+        // ==========================================
+
+        "dropdown.background": "#29263A",
+        "dropdown.foreground": "#FFFFFF",
+        "dropdown.border": "#29263A",
+
+        "input.background": "#29263A",
+        "input.foreground": "#FFFFFF",
+        "input.border": "#29263A",
+        "input.placeholderForeground": "#AAA6BD",
+        "inputOption.activeBorder": "#4b387f",
+
+        // ==========================================
+        // 23. BUTTON
+        // ==========================================
+
+        "button.background": "#4b387f",
+        "button.foreground": "#FFFFFF",
+        "button.hoverBackground": "#59436F",
+        "button.secondaryBackground": "#29263A",
+        "button.secondaryForeground": "#FFFFFF",
+        "button.secondaryHoverBackground": "#343044",
+
+        // ==========================================
+        // 24. QUICK INPUT E COMMAND PALETTE
+        // ==========================================
+
+        "quickInput.background": "#1A1928",
+        "quickInput.foreground": "#FFFFFF",
+        "quickInputTitle.background": "#29263A",
+        "quickInputList.focusBackground": "#29263A",
+        "quickInputList.focusForeground": "#FFFFFF",
+
+        // ==========================================
+        // 25. NOTIFICHE
+        // ==========================================
+
+        "notifications.background": "#1A1928",
+        "notifications.foreground": "#FFFFFF",
+        "notifications.border": "#29263A",
+        "notificationCenterHeader.background": "#29263A",
+        "notificationCenterHeader.foreground": "#FFFFFF",
+
+        // ==========================================
+        // 26. SEARCH
+        // ==========================================
+
+        "searchEditor.findMatchBackground": "#4b387f",
+        "searchEditor.textInputBorder": "#4b387f",
+
+        // ==========================================
+        // 27. PEEK VIEW
+        // ==========================================
+
+        "peekView.border": "#4b387f",
+        "peekViewResult.background": "#1A1928",
+        "peekViewResult.selectionBackground": "#29263A",
+        "peekViewEditor.background": "#1D1B2A",
+        "peekViewTitle.background": "#29263A",
+        "peekViewTitleLabel.foreground": "#FFFFFF",
+        "peekViewTitleDescription.foreground": "#8E8AA8",
+
+        // ==========================================
+        // 28. LISTE E TREE
+        // ==========================================
+
+        "list.activeSelectionBackground": "#29263A",
+        "list.activeSelectionForeground": "#FFFFFF",
+        "list.inactiveSelectionBackground": "#29263A",
+        "list.inactiveSelectionForeground": "#FFFFFF",
+        "list.hoverBackground": "#29263A",
+        "list.hoverForeground": "#FFFFFF",
+        "list.focusOutline": "#4b387f",
+        "list.highlightForeground": "#8CCBEF",
+
+        // ==========================================
+        // 29. BADGES E PROGRESS BAR
+        // ==========================================
+
+        "badge.background": "#4b387f",
+        "badge.foreground": "#FFFFFF",
+        "progressBar.background": "#947FC5",
+
+        // ==========================================
+        // 30. DIFF EDITOR
+        // ==========================================
+
+        "diffEditor.insertedTextBackground": "#73B8E822",
+        "diffEditor.removedTextBackground": "#E58CBA22",
+        "diffEditor.insertedLineBackground": "#73B8E811",
+        "diffEditor.removedLineBackground": "#E58CBA11",
+
+        // ==========================================
+        // 31. DEBUG TOOLBAR
+        // ==========================================
+
+        "debugToolBar.background": "#1A1928",
+        "debugToolBar.border": "#29263A",
+
+        // ==========================================
+        // 32. GIT
+        // ==========================================
+
+        "gitDecoration.addedResourceForeground": "#73B8E8",
+        "gitDecoration.modifiedResourceForeground": "#D0C4F5",
+        "gitDecoration.deletedResourceForeground": "#E58CBA",
+        "gitDecoration.untrackedResourceForeground": "#8CCBEF",
+        "gitDecoration.ignoredResourceForeground": "#66617D",
+        "gitDecoration.conflictingResourceForeground": "#C4A7E8",
+
+        // ==========================================
+        // 33. SETTINGS
+        // ==========================================
+
+        "settings.headerForeground": "#FFFFFF",
+        "settings.modifiedItemIndicator": "#947FC5",
+        "settings.dropdownForeground": "#FFFFFF",
+        "settings.dropdownListBorder": "#4b387f",
+        "settings.checkboxForeground": "#FFFFFF",
+        "settings.checkboxBackground": "#29263A",
+        "settings.checkboxBorder": "#4b387f",
+        "settings.textInputForeground": "#FFFFFF",
+        "settings.textInputBackground": "#29263A",
+        "settings.textInputBorder": "#4b387f",
+        "settings.numberInputForeground": "#FFFFFF",
+        "settings.numberInputBackground": "#29263A",
+        "settings.numberInputBorder": "#4b387f",
+        "settings.focusedRowBackground": "#29263A55",
+
+        // ==========================================
+        // 34. WIDGET GENERICI
+        // ==========================================
+
+        "widget.border": "#29263A",
+        "widget.shadow": "#00000000"
+    },
+
+    
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "comment.line",
+                "comment.block",
+                "comment.line.double-slash",
+                "comment.block.documentation",
+                "comment.block.documentation.php",
+                "punctuation.definition.comment",
+                "punctuation.definition.comment.begin.php",
+                "punctuation.definition.comment.end.php",
+                "comment.line.double-slash",
+                "comment.line.documentation"
+            ],
+            "settings": {
+                "foreground": "#59577f",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": [
+                "keyword",
+                "storage",
+                "keyword.control",
+                "keyword.other"
+            ],
+            "settings": {
+                "foreground": "#B69CFF"
+            }
+        },
+        {
+            "name": "Storage types and modifiers",
+            "scope": [
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#B69CFF"
+            }
+        },
+        {
+            "name": "Operators",
+            "scope": [
+                "keyword.operator",
+                "keyword.operator.assignment",
+                "keyword.operator.arithmetic",
+                "keyword.operator.logical",
+                "keyword.operator.comparison"
+            ],
+            "settings": {
+                "foreground": "#D5A6FF"
+            }
+        },
+        {
+            "name": "Classes, interfaces and types",
+            "scope": [
+                "entity.name.type",
+                "entity.name.type.class",
+                "entity.name.type.interface",
+                "entity.name.type.enum",
+                "entity.name.class",
+                "support.class",
+                "support.type",
+                "support.type.builtin",
+                "storage.type.builtin"
+            ],
+            "settings": {
+                "foreground": "#91BFFF"
+            }
+        },
+        {
+            "name": "Functions and methods",
+            "scope": [
+                "entity.name.function",
+                "entity.name.function.member",
+                "support.function",
+                "variable.function"
+            ],
+            "settings": {
+                "foreground": "#55D6F5"
+            }
+        },
+        {
+            "name": "Parameters",
+            "scope": [
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#FFFFFF"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "variable.other"
+            ],
+            "settings": {
+                "foreground": "#B5C9F5"
+            }
+        },
+        {
+            "name": "Properties and members",
+            "scope": [
+                "variable.other.property",
+                "variable.other.member",
+                "variable.other.object",
+                "meta.property-name"
+            ],
+            "settings": {
+                "foreground": "#91BFFF"
+            }
+        },
+        {
+            "name": "Constants and enum members",
+            "scope": [
+                "constant.language",
+                "constant.character",
+                "variable.other.constant",
+                "variable.other.enummember",
+                "variable.other.readwrite",
+                "constant.other"
+            ],
+            "settings": {
+                "foreground": "#FFFFFF"
+            }
+        },
+        {
+            "name": "Numbers",
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#C7E7FF"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string",
+                "string.quoted",
+                "string.template"
+            ],
+            "settings": {
+                "foreground": "#A6E3B5"
+            }
+        },
+        {
+            "name": "String escapes",
+            "scope": [
+                "constant.character.escape",
+                "constant.character.entity"
+            ],
+            "settings": {
+                "foreground": "#8EDCFF"
+            }
+        },
+        {
+            "name": "Regular expressions",
+            "scope": [
+                "string.regexp",
+                "constant.other.character-class.regexp"
+            ],
+            "settings": {
+                "foreground": "#8EDCFF"
+            }
+        },
+        {
+            "name": "Punctuation",
+            "scope": [
+                "punctuation",
+                "punctuation.separator",
+                "punctuation.terminator"
+            ],
+            "settings": {
+                "foreground": "#A6A0C4"
+            }
+        },
+        {
+            "name": "Brackets and delimiters",
+            "scope": [
+                "punctuation.section",
+                "punctuation.definition.parameters",
+                "punctuation.definition.arguments",
+                "punctuation.definition.array"
+            ],
+            "settings": {
+                "foreground": "#91BFFF"
+            }
+        },
+        {
+            "name": "Annotations and decorators",
+            "scope": [
+                "storage.type.annotation",
+                "punctuation.definition.annotation",
+                "entity.name.function.decorator",
+                "meta.annotation"
+            ],
+            "settings": {
+                "foreground": "#8EDCFF"
+            }
+        },
+        {
+            "name": "Preprocessor directives",
+            "scope": [
+                "meta.preprocessor",
+                "keyword.control.directive",
+                "keyword.control.directive.include",
+                "entity.name.function.preprocessor"
+            ],
+            "settings": {
+                "foreground": "#B69CFF"
+            }
+        },
+        {
+            "name": "HTML and XML tags",
+            "scope": [
+                "entity.name.tag",
+                "entity.name.tag.html",
+                "entity.name.tag.xml"
+            ],
+            "settings": {
+                "foreground": "#91BFFF"
+            }
+        },
+        {
+            "name": "HTML attributes",
+            "scope": [
+                "entity.other.attribute-name",
+                "entity.other.attribute-name.html"
+            ],
+            "settings": {
+                "foreground": "#91BFFF"
+            }
+        },
+        {
+            "name": "HTML entities",
+            "scope": [
+                "constant.character.entity.html",
+                "punctuation.definition.entity"
+            ],
+            "settings": {
+                "foreground": "#C7E7FF"
+            }
+        },
+        {
+            "name": "CSS selectors",
+            "scope": [
+                "entity.name.tag.css",
+                "entity.other.attribute-name.class.css",
+                "entity.other.attribute-name.id.css",
+                "entity.other.attribute-name.pseudo-class.css",
+                "entity.other.attribute-name.pseudo-element.css"
+            ],
+            "settings": {
+                "foreground": "#91BFFF"
+            }
+        },
+        {
+            "name": "CSS properties",
+            "scope": [
+                "support.type.property-name.css",
+                "meta.property-name.css"
+            ],
+            "settings": {
+                "foreground": "#91BFFF"
+            }
+        },
+        {
+            "name": "CSS values",
+            "scope": [
+                "support.constant.property-value.css",
+                "support.constant.font-name.css",
+                "support.constant.color.css",
+                "meta.property-value.css"
+            ],
+            "settings": {
+                "foreground": "#B5C9F5"
+            }
+        },
+        {
+            "name": "CSS strings",
+            "scope": [
+                "string.quoted.css"
+            ],
+            "settings": {
+                "foreground": "#A6E3B5"
+            }
+        },
+        {
+            "name": "CSS numbers and units",
+            "scope": [
+                "constant.numeric.css",
+                "keyword.other.unit.css"
+            ],
+            "settings": {
+                "foreground": "#C7E7FF"
+            }
+        },
+        {
+            "name": "CSS at-rules",
+            "scope": [
+                "keyword.control.at-rule.css",
+                "keyword.other.important.css"
+            ],
+            "settings": {
+                "foreground": "#B69CFF"
+            }
+        },
+        {
+            "name": "CSS variables",
+            "scope": [
+                "variable.css",
+                "variable.other.css"
+            ],
+            "settings": {
+                "foreground": "#8EDCFF"
+            }
+        },
+        {
+            "name": "C++ variables",
+            "scope": [
+                "variable.other.cpp",
+                "variable.other.readwrite.cpp",
+                "variable.other.member.cpp",
+                "entity.name.variable.cpp",
+                "meta.definition.variable.cpp",
+                "source.cpp meta.block variable.other"
+            ],
+            "settings": {
+                "foreground": "#B5C9F5"
+            }
+        },
+        {
+            "name": "C++ parameters",
+            "scope": [
+                "variable.parameter.cpp"
+            ],
+            "settings": {
+                "foreground": "#FFFFFF"
+            }
+        },
+        {
+            "name": "C++ functions",
+            "scope": [
+                "entity.name.function.cpp",
+                "support.function.cpp"
+            ],
+            "settings": {
+                "foreground": "#55D6F5"
+            }
+        },
+        {
+            "name": "C++ types",
+            "scope": [
+                "entity.name.type.cpp",
+                "storage.type.cpp",
+                "support.type.cpp"
+            ],
+            "settings": {
+                "foreground": "#91BFFF"
+            }
+        },
+        {
+            "name": "C++ preprocessor",
+            "scope": [
+                "entity.name.function.preprocessor.cpp",
+                "entity.name.constant.preprocessor.cpp",
+                "keyword.control.directive.cpp",
+                "meta.preprocessor.cpp"
+            ],
+            "settings": {
+                "foreground": "#B69CFF"
+            }
+        },
+        {
+            "name": "C++ constants",
+            "scope": [
+                "constant.other.cpp",
+                "constant.language.cpp",
+                "support.constant.cpp"
+            ],
+            "settings": {
+                "foreground": "#FFFFFF"
+            }
+        },
+        {
+            "name": "Python built-in functions",
+            "scope": [
+                "support.function.builtin.python"
+            ],
+            "settings": {
+                "foreground": "#55D6F5"
+            }
+        },
+        {
+            "name": "Python self and cls",
+            "scope": [
+                "variable.parameter.function.language.special.self.python"
+            ],
+            "settings": {
+                "foreground": "#8EDCFF",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Java annotations",
+            "scope": [
+                "storage.type.annotation.java",
+                "punctuation.definition.annotation.java"
+            ],
+            "settings": {
+                "foreground": "#8EDCFF"
+            }
+        },
+        {
+            "name": "Java packages",
+            "scope": [
+                "entity.name.package.java"
+            ],
+            "settings": {
+                "foreground": "#A6A0C4"
+            }
+        },
+        {
+            "name": "JavaScript and TypeScript template expressions",
+            "scope": [
+                "punctuation.definition.template-expression"
+            ],
+            "settings": {
+                "foreground": "#D5A6FF"
+            }
+        },
+        {
+            "name": "JSON property names",
+            "scope": [
+                "support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#91BFFF"
+            }
+        },
+        {
+            "name": "Markdown headings",
+            "scope": [
+                "markup.heading",
+                "entity.name.section"
+            ],
+            "settings": {
+                "foreground": "#91BFFF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown bold",
+            "scope": [
+                "markup.bold"
+            ],
+            "settings": {
+                "foreground": "#91BFFF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown italic",
+            "scope": [
+                "markup.italic"
+            ],
+            "settings": {
+                "foreground": "#8EDCFF",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Markdown links",
+            "scope": [
+                "markup.underline.link",
+                "string.other.link"
+            ],
+            "settings": {
+                "foreground": "#91BFFF",
+                "fontStyle": "underline"
+            }
+        }
+    ],
+    "semanticTokenColors": {
+        "class": "#91BFFF",
+        "interface": "#91BFFF",
+        "enum": "#91BFFF",
+        "struct": "#91BFFF",
+        "type": "#91BFFF",
+        "typeParameter": "#91BFFF",
+        "namespace": "#91BFFF",
+        "function": "#55D6F5",
+        "method": "#55D6F5",
+        "macro": "#B69CFF",
+        "parameter": "#FFFFFF",
+        "variable": "#B5C9F5",
+        "property": "#91BFFF",
+        "enumMember": "#FFFFFF",
+        "keyword": "#B69CFF",
+        "operator": "#D5A6FF",
+        "decorator": "#8EDCFF",
+        "event": "#55D6F5",
+        "label": "#91BFFF",
+        "number": "#C7E7FF",
+        "string": "#A6E3B5",
+        "regexp": "#8EDCFF",
+        "comment": {
+            "foreground": "#59577f",
+            "italic": true
+        },
+        "variable.readonly": "#FFFFFF",
+        "variable.other": "#FFFFFF",
+        "variable.defaultLibrary": "#91BFFF",
+        "function.defaultLibrary": "#55D6F5",
+        "method.defaultLibrary": "#55D6F5",
+        "class.defaultLibrary": "#91BFFF",
+        "type.defaultLibrary": "#91BFFF",
+        "property.readonly": "#FFFFFF",
+        "parameter.declaration": "#FFFFFF",
+        "parameter.readonly": "#FFFFFF",
+        "variable.declaration": "#B5C9F5",
+        "property.declaration": "#91BFFF",
+        "function.declaration": "#FFFFFF",
+        "method.declaration": "#55D6F5"
+    }
+
+
+}
